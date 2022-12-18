@@ -17,7 +17,7 @@ const App = () => {
     // use console.log
      let num = event.target.value;
     setUpdateNum(num);
-    console.log("Input in #num-input is", num.toString());
+    console.log("Input in #num-input is ", num.toString());
  
    }
 
