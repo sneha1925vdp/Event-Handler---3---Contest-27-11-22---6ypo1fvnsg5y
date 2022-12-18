@@ -9,7 +9,7 @@ const App = () => {
    // use console.log
     let txt = event.target.value;
     setUpdateText(txt);
-   console.log("Input in #text-input is ", txt);
+   console.log("Input in #text-input is " + txt);
 
   }
 
@@ -17,7 +17,7 @@ const App = () => {
     // use console.log
      let num = event.target.value;
     setUpdateNum(num);
-    console.log("Input in #num-input is ", num.toString());
+    console.log("Input in #num-input is "+ num.toString());
  
    }
 
